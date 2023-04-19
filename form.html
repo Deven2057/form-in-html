@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        
+            <div class="head">
+                <h1>Contact Form</h1>  
+            </div>
+           <hr>
+            <form  class = "form" action="">
+            <p><i class="fa fa-user"></i> Your Name:*
+            <input type="text" name="name" placeholder="Full Name" required></p>
+            <p><i class="fa fa-envelope"></i> Your Email:*
+            <input type="email" name="email" placeholder="hello@gmail.com" required></p>
+            <p>Your Password:*
+                <input type="password" name="password" placeholder="Your Password" required></p>
+            <fieldset>
+                <legend>Gender *</legend> 
+                    <p>Male: <input type="radio" name="gender" id="male" required>
+                    Female: <input type="radio" name="gender" id="male" required></p>
+                </legend>
+            </fieldset>
+            <p>Message:*
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea></p>
+            <p>Pincode:*<input type="number" name="pincode" id="" placeholder=""></p>
+            <p>
+                Accepted card
+            <div class="icon-container" style="margin: 9px;">
+                    
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                    
+             </div>
+            </p>
+            <p>Card Type:
+                <select name="card" id="card" >
+                    <option value="">-Select Card-</option>
+                    <option value="Pay Pal">Pay Pal </option>
+                    <option value="Master">Master</option>
+                    <option value="E-Pay">E-Pay</option>
+                    <option value="visa"> Visa </option>
+                </select>
+            </p>
+            
+            
+            <p>
+                Date:*
+                <input type="date" name="date" id="date">
+            </p>
+            <input type="submit" value="Submit">
+                <!-- <i class="fa fa-home"></i> -->
+                <!-- <i class="fa fa-search"></i>
+                <i class="fa fa-cloud"></i>
+                <i class="fa fa-trash"></i> -->
+
+        </form>
+    </div>
+    
+
+    
+</body>
+</html>
